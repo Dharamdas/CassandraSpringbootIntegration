@@ -1,0 +1,23 @@
+group 'CassandraAppTest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.5.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-cassandra', version: '1.5.5.RELEASE'
+        testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.5.RELEASE'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    baseName = 'SpringBootRestCassandra'
+    version = '0.0.1-SNAPSHOT'
+}
