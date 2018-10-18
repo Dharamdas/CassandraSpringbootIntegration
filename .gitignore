@@ -12,6 +12,8 @@
 *.orig
 .gradle/
 out/
+gradle/
+out
 ############
 *.jar
 *.war
