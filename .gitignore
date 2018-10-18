@@ -11,9 +11,8 @@
 *.ids
 *.orig
 .gradle/
-out/
 gradle/
-out
+out/production
 ############
 *.jar
 *.war
